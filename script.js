@@ -109,7 +109,7 @@ function initializeQuiz() {
     localStorage.removeItem("currentQuestion");
     localStorage.removeItem("correctCount");
     localStorage.removeItem("incorrectCount");
-    window.location.href = "final.html";
+    window.location.href = "/result";
   }
 
   function updateScore() {
